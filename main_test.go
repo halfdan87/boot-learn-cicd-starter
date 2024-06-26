@@ -1,11 +1,11 @@
 package main
 
 import (
-    "testing"
+	"testing"
 )
 
 // func GetAPIKey(headers http.Header) (string, error) {
 
 func TestGetApiKey(t *testing.T) {
-    
+
 }
