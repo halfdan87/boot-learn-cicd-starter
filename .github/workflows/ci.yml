@@ -5,7 +5,7 @@ on:
     branches: [main]
 
 jobs:
-  tests:
+  Tests:
     name: Tests
     runs-on: ubuntu-latest
 
@@ -20,7 +20,7 @@ jobs:
 
       - name: Run tests
         run: go test -cover ./...
-  style:
+  Style:
     runs-on: ubuntu-latest
 
     steps:
